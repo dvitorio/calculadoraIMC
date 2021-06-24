@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Calculadora de IMC</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="titulo">
+        <h1>Calculadora de IMC</h1>
+        <h2>Cálculo do Índice de Massa Corporal</h2>
+    </div>
+
+    <h2 id="instrucoes">Comece informando o "peso" em quilos e a altura em metros:</h2>
+    <div class="caixa">
+        <h3>Peso (kg)</h3><input type="text" id="peso">
+        <h3>Altura (m)</h3><input type="text" id="altura"><br/>
+        <button type="reset" id="btn_limpar" onclick="limpar()">Limpar</button>
+        <button id="btn_calcular" onclick="calcularIMC()">Calcular</button>
+        <h3 id="imc-h3">Índice de Massa Corporal (IMC)</h3><br/>
+        <input type="text" id="imc-input">
+    </div>
+
+    <div class="rodape">
+        <h5>Desenvolvido por Daniel Vitorio</h5>
+        <h5>Todos os direitos reservados - 2021</h5>
+        <h5>dvitorio2@gmail.com</h5>
+        <h5>(71) 9 8300-9859</h5>
+    </div>
+
+</body>
+</html>

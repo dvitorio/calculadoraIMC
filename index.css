@@ -1,0 +1,79 @@
+*{margin: 0; padding: 0; font-family: Verdana, Geneva, Tahoma, sans-serif}
+
+.titulo{
+    position: relative; 
+    width: 100vw; 
+    height: 12vh; 
+    background-color:rgb(36, 34, 34);;
+    color: white; 
+    text-shadow: 1px 1px 1px black;
+}
+
+h1{font-size: 2em; text-align: center; margin-bottom: 1vh}
+
+h2{font-size: 1em; text-align: center}
+
+#instrucoes{color:  rgb(109, 103, 103)}
+
+.caixa{
+    position: relative;
+    border: 1px solid lightgrey;
+    width: 90vw;
+    height: 65vh;
+    margin: 1vh auto;
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(109, 103, 103);
+    background-color: lightgrey;
+}
+
+.caixa h3{margin: 2vh 0 2vh 0}
+
+.caixa input{position: relative; margin: auto; width: 85vw; height: 5vh; font-size: 1.7em; color:rgb(150, 140, 140); text-align: center}
+
+#btn_limpar{
+    position: relative; 
+    width: 42.4vw; 
+    height: 7vh; 
+    margin: 4vh auto;
+    border: 1px solid grey;
+    background-color: cornflowerblue;
+    font-size: 1.25em;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 2px 3px 8px rgb(78, 77, 77);
+}
+
+#btn_calcular{
+    position: relative; 
+    width: 42.5vw; 
+    height: 7vh; 
+    margin: 4vh auto;
+    border: 1px solid grey;
+    background-color: cornflowerblue;
+    font-size: 1.25em;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 2px 3px 8px rgb(78, 77, 77);
+}
+
+#btn_calcular:hover{background-color:navy; cursor: pointer}
+
+#btn_limpar:hover{background-color:navy; cursor: pointer}
+
+#imc-h3{text-align: center; margin: 1vh 0 -1vh 0}
+
+#imc-input{height: 12vh; font-size: 3em; text-align: center; color: rgb(39, 91, 187); box-shadow: 1px 3px 8px grey}
+
+.rodape{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    width: 90vw;
+    height: 12vh;
+    line-height: 20px;
+    background-color: rgb(36, 34, 34);
+    color: white;
+}
+
